@@ -3,7 +3,7 @@
 The dataset could be download in https://www.cs.cmu.edu/~enron/. Please put it in data/
 Copyright: data/organization2.csv
 
-To run our code:
+# To run our code:
 cd code
 # generate the .json file we need
 python check_data_distance_2.py  
