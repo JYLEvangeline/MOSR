@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-def draw1(): # 柱状图
+def draw1(): 
     to_draw = [(0.9459885358599089, 0.0013788484645537455, 0.052632615675537314), (0.9314009661835749, 0.0, 0.06859903381642507), (0.9764397905759162, 0.0, 0.023560209424083767), (0.5818965517241379, 0.02413793103448276, 0.39396551724137935), (0.8194335169158143, 0.003147128245476003, 0.17741935483870966), (0.6593516209476309, 0.0014962593516209476, 0.33915211970074816), (0.9560933818804883, 0.005140286999357464, 0.03876633112015422), (1.0, 0.0, 0.0), (1.0, 0.0, 0.0), (0.5126921701823383, 0.007865570253843403, 0.47944225956381836)]
     label10 = ['jeff.dasovich@enron.com', 'tana.jones@enron.com', 'steven.kean@enron.com', 'matthew.lenhart@enron.com', 'sara.shackleton@enron.com', 'kay.mann@enron.com', 'kate.symes@enron.com', 'pete.davis@enron.com', 'enron.announcements@enron.com', 'vince.kaminski@enron.com']
     for i in range(len(label10)):
