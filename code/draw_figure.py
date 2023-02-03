@@ -272,39 +272,7 @@ if model == 'msft_lr' or model == 'msft_ada':
     err, error_by_date_sum = get_err_and_err_by_date(pre_s)
     if args.max_d == 10:
         ndcg, ndcg_by_date_sum = get_ndcg_and_ndcg_by_date(pre_s)
-elif model == 'enron':
-    # we don't need to draw these figures now
-    # with open(path + pre_s + "candidates","rb") as fp:
-    #     candidates = pickle.load(fp)
-    #     candidates_without_zero = []
-    #     for candidate in candidates:
-    #         if candidate[2] == 0:
-    #             continue
-    #         candidates_without_zero.append((candidate[1]-candidate[0])/candidate[2])
-    #     series = ["The percentage increased after adding carbon copy receivers"]
-    #     sns.kdeplot(candidates_without_zero,shade = True)
-    #     filename = pre_s + "cc_list" + ".png"
-    #     plt.savefig(path + "figure/enron/final/" + filename)
-    #     plt.close()
-    # with open(path + pre_s + "stat_true", "rb") as fp:
-    #     stat_true = pickle.load(fp)
-    #     stat_true = np.array(stat_true)
-    #     for i in range(3):
-    #         a = np.nan_to_num(stat_true[:,i]/stat_true[:,-1])
-    #         stat_true[:,i] = a
-    #     series = ["strangers","chat before", "have mutual connection"]
-    #     draw_hist_stat_general(stat_true[:,:3].T, "Undiscovered candidates distribution num", series)
-    #     for i in range(3):
-    #         a = np.nan_to_num(stat_true[:,i]/stat_true[:,3])
-    #         stat_true[:,i] = a
-    #     draw_hist_stat_general(stat_true[:,:3].T, "Undiscovered candidates distribution", series)
-
-    # with open(path + pre_s + "stat_pred", "rb") as fp:
-    #     stat_pred = pickle.load(fp)
-    #     stat_pred = np.array([stat_pred])
-    #     series = ["True Positive"]
-    #     draw_hist_stat_general(stat_pred, "Precision Distribution in candidates set", series)
-    
+elif model == 'enron': 
     err, error_by_date_sum = get_err_and_err_by_date(pre_s)
     if args.max_d == 10:
         ndcg, ndcg_by_date_sum = get_ndcg_and_ndcg_by_date(pre_s)
