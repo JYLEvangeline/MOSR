@@ -1,7 +1,8 @@
 # MOSR
 
 The dataset could be download in https://www.cs.cmu.edu/~enron/. Please put it in data/
-Copyright: data/organization2.csv
+
+data/organization2.csv is crawled by us. And it is already in data/ folder.
 
 # To run our code:
 cd code
