@@ -1,4 +1,8 @@
-# MOSR
+# MOSR: Stationary Algorithmic Balancing For Dynamic Email Re-Ranking Problem
+
+Accepted by KDD ’23.
+
+Our paper could be viewd at (https://dl.acm.org/doi/pdf/10.1145/3580305.3599909)
 
 The dataset could be download in https://www.cs.cmu.edu/~enron/. Please put it in data/
 
